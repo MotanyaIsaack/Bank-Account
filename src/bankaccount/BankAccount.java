@@ -50,6 +50,9 @@ public class BankAccount {
                     clearScreen();
                     statusCheck();
                     break;
+                case 0:
+                    System.exit(0); 
+                    break;
                 default:
                      System.out.println("Enter a valid Input");
                      break;
